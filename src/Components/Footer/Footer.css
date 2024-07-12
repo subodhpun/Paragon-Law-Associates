@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+/* contact */
+.contactContainer{
+    background-color: #2a3944;
+    border: solid #2a3944 3px;
+}
+.contactDiv{
+    position: relative;
+    /* border: 3px solid green; */
+    display: grid;
+    grid-template-columns: 10rem repeat(3, 1fr) 10rem;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+.addressInfo{
+    /* border: solid yellow 3px; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    grid-column: 2/3;
+    gap: 0.5rem;
+}
+.addressInfo h1{
+    font-size: 2rem;
+}
+.addressInfo h3{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 0.5rem;
+}
+
+.location{
+    /* border: 3px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.location img{
+    display: flex;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    background-color: silver;
+    border-radius: 0.5rem;
+}
+
+
+.practiceAreasLinks{
+    /* border: solid yellow 3px; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+.practiceAreasLinks h1{
+    font-size: 2rem;
+}
+.practiceAreasLinks ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.practiceAreasLinks ul li{
+    list-style-type: none;
+    /* border:3px solid red; */
+    justify-content: flex-start;
+    align-content: start;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+.practiceAreasLinks ul li a{
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+.openingHours{
+    /* border: solid yellow 3px; */
+    display: flex;
+    flex-direction: column;
+}
+.openingHours h1{
+    font-size: 2rem;
+}
+
+.openingHours h3{
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+/* footer */
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #212d35;
+}
+.socialMedia{
+    /* border: solid red 3px; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+}
+.socialMedia img{
+    background-color: rgb(168, 179, 189);
+    border-radius: 2rem;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+.copyright p{
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+.developedBy{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+.developedBy p{
+    font-size: 1.6rem;
+}
+.developedBy p a{
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+.developedBy p strong{
+    font-size: 2rem;
+    color: maroon;
+    font-weight: lighter;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.developedBy p strong:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 0.5rem;
+    width: auto;
+}

@@ -1,0 +1,27 @@
+.practiceAreasContainer{
+    display: flex;
+    flex-direction: column;
+}
+.practiceAreasImg{
+    display: flex;
+    object-fit: cover;
+}
+.practiceAreasImg img{
+    width: 100%;
+    height: 70rem;
+}
+.practiceAreasTitle{
+    /* border: solid red 3px; */
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    padding: 3rem;
+}
+.practiceAreasTitle h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: -2rem;
+}

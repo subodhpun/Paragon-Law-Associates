@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.aboutImg{
+    /* border: solid black 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.aboutTitle{
+    /* border: solid rgb(0, 255, 123) 0.5rem; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+.aboutTitle h1{
+    /* border: solid red 0.5rem; */
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    margin-right: 3.5rem;
+}
+.aboutTitle h3{
+    /* border: solid red 0.5rem; */
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-right: 5rem;
+}
+.aboutImg img{
+    object-fit: cover;
+    height: 50rem;
+    width: 152rem;
+}
+
+.aboutDes{
+    /* border: solid black 0.5rem; */
+    background-color: rgba(245, 222, 179, 0.19);
+}
+.aboutDesIntro h1{
+    color: maroon;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-left: 1.9rem;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+}
+.aboutDesIntro p, .aboutDesMission p{
+    color: black;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 2rem;
+}
+.aboutDesMission{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutDesMission h1{
+    color: maroon;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-bottom: -3rem;
+    margin-left: 1.9rem;
+}
+
+
+.whyChooseUs{
+    /* border: solid black 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1.5rem;
+}
+.whyChooseUs h1{
+    font-size: 3rem;
+    color: maroon;
+    padding: 1.6rem;
+    margin-left: 0.4rem;
+}
+.whyChooseUs ul{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: decimal;
+}
+
+.whyChooseUs li{
+    color: black;
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin-left: 6rem;
+    font-weight: bold;
+}
+.clientSays{
+    background-color: rgb(240, 248, 255);
+    display: flex;
+    flex-direction: column;
+}
+.clientSaysTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.clientSaysTitle h1{
+    color: maroon;
+    font-size: 3rem;
+}
+
+
+.clients{
+    /* border: solid rgb(255, 0, 0) 0.5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem;
+    gap: 1rem;
+}
+.client1, .client2, .client3, .client4{
+    /* border: solid rgb(255, 255, 255) 3px; */
+    background-color: maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50rem;
+    padding: 1rem;
+}
+.client1 h1, .client2 h1, .client3 h1, .client4 h1{
+    font-size: 1.7rem;
+    text-align: start;
+}
+.client1 h2, .client2 h2, .client3 h2, .client4 h2{
+    display: flex;
+    font-size: 1.4rem;
+    /* border: solid black 3px; */
+    margin-right: 0.5rem;
+    align-items: end;
+    height: 100%;
+}
+
+
+

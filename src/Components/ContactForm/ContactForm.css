@@ -1,0 +1,82 @@
+.ContactFormMainContainer{
+    background-color:rgb(240, 248, 255);
+}
+.joinUsForm{
+    /* border: solid rgb(255, 0, 0) 0.5rem; */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 5rem;
+    margin-bottom: 3rem;
+}
+.contactTitle{
+    display: flex;
+    justify-content: flex-start;
+    /* border: solid black 1px; */
+    margin-left: 10rem;
+}
+.contactTitle h1{
+    /* border: solid black 1px; */
+    display: flex;
+    color: black;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.firstLastName{
+    /* border: solid rgb(255, 0, 0) 5px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-left: 10rem;
+}
+
+.name, .email, .feedback{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.email, .feedback{
+    margin-left: 10rem;
+}
+
+.name input, .email input{
+    height: 3rem;
+    width: 30rem;
+    padding: 0.5rem;
+    color: inherit;
+}
+.req{
+    color: red;
+    font-weight: bold;
+    position: relative;
+}
+
+.feedback input{
+    height: 10rem;
+    width: 30rem;
+    padding: 0.5rem;
+}
+#firstName, #lastName, #emailId, #feedback{
+    color: black;
+    font-size: 1.7rem;
+}
+#first, #last, #email, #feedback{
+    color: black;
+    font-size: 1.7rem;
+}
+.submitBtn{
+    display: flex;  
+    margin-left: 10rem;
+    margin-top: -3.5rem;
+}
+.submitBtn button{
+    padding: 0.3rem;
+    background-color: #f44336;
+    height: 3rem;
+    width: 10rem;
+    border: solid white 0.1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
