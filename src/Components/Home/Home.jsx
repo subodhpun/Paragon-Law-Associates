@@ -9,7 +9,7 @@ export const RangeOfPractice= ()=>{
   {/* range of practice */}
   <div className="practiceAreas">
   <div className="practiceAreasImage">
-    <img src='src\assets\photos\practiceAreas.jpg' alt='No Image'/>
+    <img src='src/assets/photos/practiceAreas.jpg' alt='No Image'/>
   </div>
   <div className="practiceAreasDes">
     <div className="practiceAreasDesIntro"><h1>Practice Areas</h1></div>
@@ -18,7 +18,7 @@ export const RangeOfPractice= ()=>{
       <div className="practiceAreasDiv">
         <div className="LawImg">
           <Link to="/FamilyLaw">
-        <img src='src\assets\practiceareas\familyLaw.jpg' alt='no'/>
+                  <img src='/assets/practiceareas/familyLaw.jpg' alt='no' />
         </Link>
         </div>
         <div className="LawDes">
@@ -98,7 +98,7 @@ const Home = () => {
         </div>
         <div className="gaurabDangi">
           <div className="imgForGaurab">
-            <a href='https://www.facebook.com/gaurab.dangi' target='_blank'><img src="src\assets\photos\gaurabDangi.png" alt="No Image" /></a>
+            <a href='https://www.facebook.com/gaurab.dangi' target='_blank'><img src='src\assets\photos\gaurabDangi.png' alt='No Image Found' /></a>
           </div>
           <div className="desForGaurab">
             <h1>Gaurab Dangi</h1>
