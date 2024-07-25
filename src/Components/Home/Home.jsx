@@ -18,7 +18,7 @@ export const RangeOfPractice= ()=>{
       <div className="practiceAreasDiv">
         <div className="LawImg">
           <Link to="/FamilyLaw">
-                  <img src='/assets/practiceareas/familyLaw.jpg' alt='no' />
+                  <img src='src\assets\practiceareas\familyLaw.jpg' alt='no' />
         </Link>
         </div>
         <div className="LawDes">

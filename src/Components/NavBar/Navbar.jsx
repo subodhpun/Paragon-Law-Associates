@@ -8,7 +8,7 @@ const Navbar= ()=>{
             <div className="titleContainer">
                 <div className="titleImg"><a href='/'><img src='Paragon.jpg'></img></a></div>
                 <div className='titleName'>
-                   <a href='/'> <h1>Paragon gaurab mama</h1></a>
+                   <a href='/'> <h1>Paragon</h1></a>
                    <a href='/'><h3>Law Associates</h3></a>
                     </div>
             </div>
