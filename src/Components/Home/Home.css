@@ -278,7 +278,7 @@ body, html{
 }
 .practiceAreasImage{
     display: flex;
-    border: solid rgb(106, 255, 0) 1rem;
+    /* border: solid rgb(106, 255, 0) 1rem; */
     max-width: fit-content;
 }
 .practiceAreasImage img{
