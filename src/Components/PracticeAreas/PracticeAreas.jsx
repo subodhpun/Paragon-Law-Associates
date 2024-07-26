@@ -8,7 +8,7 @@ const PracticeAreas = () => {
     {/* practiceareasTitles */}
     <div className="practiceAreasContainer">
     <div className="practiceAreasImg">
-      <img src='src\assets\practiceareas\practiceAreasTitleImg.jpg' alt='no img'/>
+      <img src='\assets\practiceareas\practiceAreasTitleImg.jpg' alt='no img'/>
     </div>
     <div className="practiceAreasTitle">
       <h1>Comprehensive Legal Expertise for Your Diverse Needs</h1>

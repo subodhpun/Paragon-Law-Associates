@@ -8,7 +8,7 @@ const JoinUs = () => {
     <>
     <div className="joinUsContainer">
         <div className="joinUsImg">
-            <img src='src\assets\photos\joinUs.jpg' alt='no'/>
+            <img src='\assets\photos\joinUs.jpg' alt='no'/>
         </div>
         <div className="joinUsSection">
             <div className="joinUsIntro">

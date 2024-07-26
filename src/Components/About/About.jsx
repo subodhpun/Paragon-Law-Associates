@@ -10,7 +10,7 @@ const About = () => {
         <h1>We appreciate your presence at our law firm.</h1>
         <h3>-Paragon law team</h3>
         </div>
-      <img src='src\assets\photos\aboutUsImg.jpg' alt='no img'/>
+      <img src='\assets\photos\aboutUsImg.jpg' alt='no img'/>
     </div>
 
     <div className="aboutDes">

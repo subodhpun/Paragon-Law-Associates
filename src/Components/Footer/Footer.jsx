@@ -12,20 +12,20 @@ const Footer = () => {
           <h3>LAW FIRM REG. NO: XXXXXX/XXX</h3>
           {/* location */}
           <div className="location">
-          <img src='src\assets\photos\location.png' alt='no'/>
+          <img src='\assets\photos\location.png' alt='no'/>
           <h3>Anamnagar-29, Kathmandu, Nepal</h3>
           </div>
 
           {/* phonecall */}
           <div className="location">
-          <img src='src\assets\photos\phone-call.png' alt='no'/>
+          <img src='\assets\photos\phone-call.png' alt='no'/>
           <h3>
           984-5062652</h3>
           </div>
 
           {/* gmail */}
           <div className="location">
-          <img src='src\assets\photos\mail.png' alt='no'/>
+          <img src='\assets\photos\mail.png' alt='no'/>
           <h3> nfo@lawparagon.com </h3>
           </div>
 
@@ -51,8 +51,8 @@ const Footer = () => {
     <footer>
     <div className="footerContainer">
       <div className="socialMedia">
-        <a href='https://www.facebook.com/p/Paragon-Law-Associates-100092527039351/' target='_blank'><img src='src\assets\photos\facebook.png' alt='no img'/></a>
-        <a href='https://www.instagram.com/paragonlawassociates/' target='_blank'><img src='src\assets\photos\instagram.png' alt='no img'/></a>
+        <a href='https://www.facebook.com/p/Paragon-Law-Associates-100092527039351/' target='_blank'><img src='\assets\photos\facebook.png' alt='no img'/></a>
+        <a href='https://www.instagram.com/paragonlawassociates/' target='_blank'><img src='\assets\photos\instagram.png' alt='no img'/></a>
       </div>
       <div className="copyright">
         <p>&copy; 2024 All Rights Reserved Paragon Law Associates-Law Firm. All our Lawyers are liscensed from the Bar Council Nepal.</p>

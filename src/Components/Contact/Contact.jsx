@@ -8,7 +8,7 @@ const Contact = () => {
     <>
     <div className="contactUs">
       <div className="contactUsImg">
-        <img src='src\assets\photos\contactUs.jpg' alt='no'/>
+        <img src='\assets\photos\contactUs.jpg' alt='no'/>
       </div>
     </div>
 
