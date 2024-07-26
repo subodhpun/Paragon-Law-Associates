@@ -34,3 +34,6 @@ vite.config.js
 
 # Test coverage
 coverage/
+
+# Local Netlify folder
+.netlify
