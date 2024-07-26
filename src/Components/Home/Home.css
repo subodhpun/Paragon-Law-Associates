@@ -16,7 +16,7 @@ body, html{
     display: grid;
     position: relative;
     /* border: 3px solid green; */
-    background: url('/public/assets/backgroundImage.jpg');
+    background: url('/assets/backgroundImage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
