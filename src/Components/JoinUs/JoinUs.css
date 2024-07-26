@@ -12,9 +12,12 @@
 .joinUsImg{
     display: flex;
     object-fit: cover;
+    /* border: solid green 1rem; */
 }
 .joinUsImg img{
     background-repeat: no-repeat;
+    display: flex;
+    max-width: 40rem;
 }
 
 .joinUsSection{

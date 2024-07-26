@@ -4,6 +4,7 @@
 .joinUsForm{
     /* border: solid rgb(255, 0, 0) 0.5rem; */
     display: flex;
+    max-width: fit-content;
     flex-direction: column;
     padding: 1rem;
     gap: 5rem;

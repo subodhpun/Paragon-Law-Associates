@@ -10,6 +10,7 @@
 .contactContainer{
     background-color: #2a3944;
     border: solid #2a3944 3px;
+    /* border: 3px solid green; */
 }
 .contactDiv{
     position: relative;
