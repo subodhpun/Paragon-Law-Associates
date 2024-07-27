@@ -11,11 +11,7 @@ body, html{
     width: auto;
     grid-template-rows: repeat(4, 1fr);
 }
-.homeContainer img{
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: entry;
-}
+
 @keyframes fade-in {
     from {scale: 0.3; opacity: 0;}
     to {scale: 1; opacity: 1;}
@@ -92,6 +88,11 @@ body, html{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: silver;
+}
+.members img{
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: entry;
 }
 .eliteMembers{
     /* border: black solid 2px; */
