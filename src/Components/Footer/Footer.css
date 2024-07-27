@@ -63,7 +63,7 @@
 
 
 .practiceAreasLinks{
-    /* border: solid yellow 3px; */
+        /* border: solid yellow 3px; */
     display: flex;
     flex-direction: column;
     height: auto;

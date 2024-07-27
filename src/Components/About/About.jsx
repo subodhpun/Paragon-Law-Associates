@@ -72,6 +72,14 @@ Choosing the right legal partner is crucial, and at Paragon Law Associates, we a
         <h1>"The team was always available to answer my questions and address my concerns."</h1>
         <h2>-Someone</h2>
       </div>
+      <div className="client4">
+        <h1>"The team was always available to answer my questions and address my concerns."</h1>
+        <h2>-Someone</h2>
+      </div>
+      <div className="client4">
+        <h1>"The team was always available to answer my questions and address my concerns."</h1>
+        <h2>-Someone</h2>
+      </div>
       </div>
     </div>
     <Footer/>

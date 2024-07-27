@@ -29,12 +29,15 @@
     text-transform: capitalize;
     margin-right: 3.5rem;
 }
+
+
 .aboutTitle h3{
     /* border: solid red 0.5rem; */
     font-size: 2rem;
     text-transform: uppercase;
     margin-right: 5rem;
 }
+
 .aboutImg img{
     object-fit: cover;
     height: 50rem;
@@ -125,7 +128,9 @@
     justify-content: space-between;
     padding: 5rem;
     gap: 1rem;
+    scroll-behavior: smooth;
 }
+
 .client1, .client2, .client3, .client4{
     /* border: solid rgb(255, 255, 255) 3px; */
     background-color: maroon;

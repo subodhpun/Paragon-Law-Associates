@@ -7,11 +7,11 @@ export const RangeOfPractice= ()=>{
   return(
   <>
   {/* range of practice */}
-  <div className="practiceAreas">
-  <div className="practiceAreasImage">
+   <div className="practiceAreas">
+   <div className="practiceAreasImage">
     <img src='/assets/photos/practiceAreas.jpg' alt='No Image'/>
-  </div>
-  <div className="practiceAreasDes">
+   </div>
+   <div className="practiceAreasDes">
     <div className="practiceAreasDesIntro"><h1>Practice Areas</h1></div>
     <div className="practiceAreasDesMain">
             {/* familyLaw */}
@@ -67,8 +67,8 @@ export const RangeOfPractice= ()=>{
         </div>
       </div>
     </div>
-  </div>
-</div>
+   </div>
+   </div>
  </> 
  )
 };
@@ -88,8 +88,8 @@ const Home = () => {
       </div>
 
 
-    {/* importing range of practice */}
-    <RangeOfPractice/>
+      {/* importing range of practice */}
+      <RangeOfPractice/>
 
 
       {/* firm mermbers */}
@@ -185,7 +185,7 @@ const Home = () => {
 
       {/* footer */}
       <Footer/>
-    </div>
+      </div>
     </>
   );
 }
