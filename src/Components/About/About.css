@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    object-fit: cover;
+    height: 70rem;
 }
 .aboutTitle{
     /* border: solid rgb(0, 255, 123) 0.5rem; */
@@ -39,9 +41,7 @@
 }
 
 .aboutImg img{
-    object-fit: cover;
-    height: 50rem;
-    width: 152rem;
+    width: 100%;
 }
 
 .aboutDes{

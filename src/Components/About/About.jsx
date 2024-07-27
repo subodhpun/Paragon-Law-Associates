@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css';
-import Footer from '../Footer/Footer';
 
 const About = () => {
   return (
@@ -82,7 +81,6 @@ Choosing the right legal partner is crucial, and at Paragon Law Associates, we a
       </div>
       </div>
     </div>
-    <Footer/>
     </>
   )
 }

@@ -394,3 +394,6 @@ body, html{
     transition: transform 0.3s ease-in-out, 0.3s ease-in-out;
 }
 
+.active{
+    Color: gold;
+}

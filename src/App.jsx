@@ -8,7 +8,9 @@ import JoinUs from './Components/JoinUs/JoinUs'
 import Contact from './Components/Contact/Contact';
 import FamilyLaw from './Components/FamilyLaw/FamilyLaw';
 import CyberLaw from './Components/CyberLaw/CyberLaw';
+import Footer from './Components/Footer/Footer';
 import './App.css';
+import TaxLaw from './Components/TaxLaw/TaxLaw';
 function App() {
 
   return (
@@ -19,12 +21,14 @@ function App() {
       <Routes>
         <Route exact path ="/" element={<Home/>}/>
         <Route path="/PracticeAreas" element={<PracticeAreas/>}/>
-        <Route path="/FamilyLaw" component={<FamilyLaw/>} />
-        <Route path="/CyberLaw" component={<CyberLaw/>}/>
+        <Route path="/FamilyLaw" element={<FamilyLaw/>} />
+        <Route path="/CyberLaw" element={<CyberLaw/>}/>
+        <Route path="/TaxLaw" element={<TaxLaw/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/JoinUs" element={<JoinUs/>}/>
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </Router> 
     </>
   );

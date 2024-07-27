@@ -1,6 +1,5 @@
 import React from 'react'
 import './JoinUs.css'
-import Footer from '../Footer/Footer'
 import ContactForm from '../ContactForm/ContactForm'
 
 const JoinUs = () => {
@@ -52,7 +51,6 @@ const JoinUs = () => {
             </div> */}
         </div>
     </div>
-    <Footer/>
     </>
   )
 }

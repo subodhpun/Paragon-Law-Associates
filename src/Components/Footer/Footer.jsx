@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import {Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -33,11 +35,26 @@ const Footer = () => {
         <div className="practiceAreasLinks">
           <h1>Practice Areas</h1>
           <ul>
-            <li><a href='#'>Family Law</a></li>
-            <li><a href='#'>Cyber Law</a></li>
-            <li><a href='#'>Tax Law</a></li>
-            <li><a href='#'>Energy Law</a></li>
-            <li><a href='#'>Labour Law</a></li>
+          <li>
+                <Link to="/FamilyLaw"> Family Law
+                </Link>
+          </li>
+          <li>
+                <Link to="/CyberLaw"> Cyber Law
+                </Link>
+          </li>
+          <li>
+                <Link to="/TaxLaw"> Tax Law
+                </Link>
+          </li>
+          <li>
+                <Link to="/EnergyLaw"> Energy Law
+                </Link>
+          </li>
+          <li>
+                <Link to="/LabourLaw"> Labour Law
+                </Link>
+          </li>
           </ul>
         </div>
         <div className="openingHours">

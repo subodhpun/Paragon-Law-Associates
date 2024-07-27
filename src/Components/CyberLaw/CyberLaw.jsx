@@ -1,11 +1,13 @@
 import React from 'react'
 
-const CyberLaw = () => {
+const CyberLaw=()=> {
   return (
-    <div className="CyberLawContainer">
-      <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quod natus quam ducimus? Obcaecati voluptatibus nostrum molestiae cumque maxime ad, consequatur, aperiam aliquid, pariatur ea facilis recusandae dicta accusamus. Fuga, ex officia? Iste dolor aliquam repudiandae debitis voluptatem exercitationem maiores reiciendis consequuntur saepe eos quasi nemo, incidunt quos nihil, rem sequi placeat nesciunt magnam facilis. Quasi deserunt reiciendis facilis provident, iure architecto soluta corporis et sit, in saepe magnam dolor. Blanditiis, tempora. Ab pariatur odit veritatis repellat possimus perspiciatis blanditiis vero asperiores temporibus et quisquam neque harum culpa nisi facere tenetur fugiat, debitis perferendis illum? Itaque nesciunt qui dicta reprehenderit!</P>
+    <>
+    <div className="cyberLawContainer">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab enim harum est modi natus nobis voluptatum itaque! Unde quod vel ipsa, placeat repudiandae quos quaerat, natus numquam ullam iste necessitatibus eveniet ratione at excepturi voluptatem cupiditate eligendi voluptates deserunt nostrum amet est ex recusandae? Aliquid sapiente exercitationem nihil natus quae omnis ipsa fugiat quaerat voluptatum nemo, nostrum, rem dignissimos fugit blanditiis iusto! Odit delectus commodi officia inventore earum exercitationem quam iste sapiente eligendi accusamus hic, dignissimos consequatur. Dolorem exercitationem consectetur voluptatum debitis voluptates odit velit sed nostrum, maiores illum natus, obcaecati ullam reiciendis cum repellendus voluptas tempora aliquid. Quae officiis magni dicta repellat id a repudiandae saepe nihil recusandae. Vitae officiis quisquam ducimus et sequi ipsum, assumenda placeat? Illum soluta reprehenderit totam assumenda natus itaque impedit aperiam? Omnis, labore earum? Nihil delectus amet accusamus? Ipsam dicta quam illum, iste molestiae omnis unde laboriosam quae beatae enim mollitia ab ducimus culpa fuga laborum dignissimos expedita perferendis architecto sequi officia vitae provident aut dolorum! Aspernatur accusamus ratione magni fuga totam ea voluptatem ipsa omnis sit velit, doloremque consequuntur harum est. Dignissimos, nemo. Sequi cum, recusandae non molestias expedita incidunt facilis? Repellendus nihil ipsam consectetur maiores, labore reiciendis. Minima doloribus laboriosam pariatur eaque.
     </div>
+    </>
   )
 }
 
-export default CyberLaw;
+export default CyberLaw

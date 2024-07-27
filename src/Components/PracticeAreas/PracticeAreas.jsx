@@ -1,6 +1,5 @@
 import React from 'react'
 import './PracticeAreas.css';
-import Footer from '../Footer/Footer';
 import { RangeOfPractice } from '../Home/Home';
 const PracticeAreas = () => {
   return (
@@ -17,8 +16,6 @@ const PracticeAreas = () => {
 
     {/* practiceAreas */}
     <RangeOfPractice/>
-
-    <Footer/>
     </>
   )
 }

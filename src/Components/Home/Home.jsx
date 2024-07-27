@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import Footer from '../Footer/Footer';
+import {Link } from 'react-router-dom';
 import './Home.css';
 
 export const RangeOfPractice= ()=>{
@@ -17,53 +16,55 @@ export const RangeOfPractice= ()=>{
             {/* familyLaw */}
       <div className="practiceAreasDiv">
         <div className="LawImg">
-          <Link to="/FamilyLaw">
-                  <img src='\assets\practiceareas\familyLaw.jpg' alt='no' />
+        <Link to="/FamilyLaw" activeClassName="active">
+        <img src='\assets\practiceareas\familyLaw.jpg' alt='no' />
         </Link>
         </div>
         <div className="LawDes">
-          <h1><a href='#'>Family Law</a></h1>
+          <h1><Link to="/FamilyLaw" activeClassName="active">
+          Family Law</Link></h1>
         </div>
       </div>
         {/* cyberLaw */}
       <div className="practiceAreasDiv">
       <div className="LawImg">
-        <Link to="/CyberLaw">
+      <Link to="/CyberLaw" activeClassName="active">
       <img src='\assets\practiceareas\cyberLaw.png' alt='no'/>
       </Link>
         </div>
         <div className="LawDes">
-          <h1><a href='#'>Cyber Law</a></h1>
+          <h1><Link to="/TaxLaw">Cyber Law</Link></h1>
         </div>
       </div>
 
       {/* taxlaw */}
       <div className="practiceAreasDiv">
       <div className="LawImg">
-        <a href='#'><img src='\assets\practiceareas\taxLaw.jpg' alt='no'/></a>
+        <Link to="/TaxLaw"><img src='\assets\practiceareas\taxLaw.jpg' alt='no'/>
+        </Link>
         </div>
         <div className="LawDes">
-          <h1><a href='#'>Tax Law</a></h1>
+          <h1><Link to="/TaxLaw">Tax Law</Link></h1>
         </div>
       </div>
 
       {/* energylaw */}
       <div className="practiceAreasDiv">
       <div className="LawImg">
-        <a href='#'><img src='\assets\practiceareas\energyLaw.jpg' alt='no'/></a>
+      <Link to="/EnergyLaw"><img src='\assets\practiceareas\energyLaw.jpg' alt='no'/></Link>
         </div>
         <div className="LawDes">
-          <h1><a href='#'>Energy Law</a></h1>
+          <h1><Link to="/TaxLaw">Energy Law</Link></h1>
         </div>
       </div>
 
       {/* labourlaw */}
       <div className="practiceAreasDiv">
       <div className="LawImg">
-        <a href='#'><img src='\assets\practiceareas\labourLaw.jpg' alt='no'/></a>
+      <Link to="/TaxLaw"><img src='\assets\practiceareas\labourLaw.jpg' alt='no'/></Link>
         </div>
         <div className="LawDes">
-          <h1><a href='#'>Labour Law</a></h1>
+          <h1><Link to="/TaxLaw">Labour Law</Link></h1>
         </div>
       </div>
     </div>
@@ -77,10 +78,9 @@ export const RangeOfPractice= ()=>{
 const Home = () => {
   return (
     <>
-    <div className="homeContainer">
+    {/* <div className="homeContainer"> */}
       {/* display */}
       <div className="display">
-        {/* <img src='/assets/backgroundImage.jpg' alt='no img' /> */}
         <div className="overlay">
         <div className="mainLine">
            <h1>Paragon Law Associates</h1>
@@ -178,7 +178,7 @@ const Home = () => {
               9823520190</h3></a>
          <a href='mailto:subodhmagar07@gmail.com'>
           <h3><img src='\assets\photos\gmailIcon.png' alt='phone icon' className='phonegmailIcon'/>
-              angigaurab@gmail.com</h3>
+              dangigaurab@gmail.com</h3>
               </a>
             </div>
           </div>
@@ -186,8 +186,8 @@ const Home = () => {
          </div>
 
       {/* footer */}
-      <Footer/>
-      </div>
+      {/* <Footer/>
+      </div> */}
     </>
   );
 }

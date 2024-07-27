@@ -16,10 +16,10 @@
     display: flex;
     position: relative;
     overflow: hidden;
+    height: 70rem;
+    object-fit: cover;
 }
 .contactUsImg img{
-    object-fit: cover;
-    height: 62rem;
     width: 100vw;
 }
 
