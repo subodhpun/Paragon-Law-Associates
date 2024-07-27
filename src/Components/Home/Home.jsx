@@ -81,10 +81,12 @@ const Home = () => {
       {/* display */}
       <div className="display">
         {/* <img src='/assets/backgroundImage.jpg' alt='no img' /> */}
+        <div className="overlay">
         <div className="mainLine">
            <h1>Paragon Law Associates</h1>
            <h2>"Excellence in service, unwavering in justice."</h2>
            </div>
+        </div>
       </div>
 
 
