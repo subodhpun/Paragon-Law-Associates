@@ -1,7 +1,45 @@
 import React from 'react'
 import './About.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const About = () => {
+  const data=[
+    {
+      review: 'The team at Paragon Law Associates provided exceptional service from start to finish."',
+      name: "-Someone1"
+    },
+    {
+      review: '"They showed compassion and understanding during a difficult time for me."',
+      name: "-Someone2"
+    },
+    {
+      review: '"The team was always available to answer my questions and address my concerns."',
+      name: "-Someone3"
+    },
+    {
+      review: '"Their efficient approach saved me time and stress."',
+      name: "-Someone4"
+    },
+    {
+      review: '"Their efficient approach saved me time and stress."',
+      name: "-Someone5"
+    },
+    {
+      review: '"Their efficient approach saved me time and stress."',
+      name: "-Someone6"
+    }
+  ]
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow:3,
+    slidesToScroll: 1,
+    rows: 1,
+  };
+  
   return (
     <>
     <div className="aboutImg">
@@ -52,33 +90,15 @@ Choosing the right legal partner is crucial, and at Paragon Law Associates, we a
       <h1>What Our Clients Say About Us</h1>
       </div>
       <div className="clients">
-      <div className="client1">
-        <h1>"The team at Paragon Law Associates provided exceptional service from start to finish."</h1>
-          <h2>-Someone</h2>
-      </div>
-
-      <div className="client2">
-        <h1>"They showed compassion and understanding during a difficult time for me."</h1>
-        <h2>-Someone</h2>
-      </div>
-
-      <div className="client3">
-        <h1>"Their efficient approach saved me time and stress."</h1>
-        <h2>-Someone</h2>
-      </div>
-
-      <div className="client4">
-        <h1>"The team was always available to answer my questions and address my concerns."</h1>
-        <h2>-Someone</h2>
-      </div>
-      <div className="client4">
-        <h1>"The team was always available to answer my questions and address my concerns."</h1>
-        <h2>-Someone</h2>
-      </div>
-      <div className="client4">
-        <h1>"The team was always available to answer my questions and address my concerns."</h1>
-        <h2>-Someone</h2>
-      </div>
+      <Slider {...settings}>
+        {data.map((d)=>(
+          <div className="client1">
+            <h1>{d.review}</h1>
+            <h2>{d.name}</h2>
+          </div>
+        )
+      )}
+        </Slider>
       </div>
     </div>
     </>
