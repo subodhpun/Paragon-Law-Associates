@@ -1,14 +1,15 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
-.cyberLawTitleImage{
+
+.energyLawTitleImage{
     /* border: solid green 1rem; */
     display: flex;
     object-fit: cover;
     height: 70rem;
 }
 
-.cyberLawTitleImage img{
+.energyLawTitleImage img{
     width: 100%;
 }

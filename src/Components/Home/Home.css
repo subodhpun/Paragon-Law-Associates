@@ -23,6 +23,7 @@ body, html{
     position: relative;
     /* border: 3px solid green; */
     background: url('/assets/backgroundImage.jpg');
+    background-blend-mode: screen;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

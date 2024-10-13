@@ -43,7 +43,7 @@ a{
 /* navbar */
 .navbar{
     /* border: rgb(114, 237, 0) solid 1px; */
-    position: static;
+    position: relative;
     display: grid;
     grid-template-columns: 10rem 1fr 1fr 10rem;
     box-sizing: border-box;
@@ -100,4 +100,31 @@ nav ul li:hover::after {
 
 .active{
     Color: gold;
+}
+
+.dropDown{
+    position: relative;
+    display: inline-block;
+}
+.dropDownContent{
+    position: absolute;
+    display: none;
+    z-index: 100;
+    background: rgb(88, 0, 0); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.dropDown:hover .dropDownContent{
+    display: block;
+}
+
+.dropDownContent li{
+    display: block;
+    position: relative;
+    max-width: 100rem;
+    white-space: nowrap;
+    transform: translateX(-12%);
+        /* border: rgb(255, 0, 0) 3px solid; */
 }

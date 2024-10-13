@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.taxLawContainer{
-    background-color: red;
+.taxLawTitleImage{
+    /* border: solid green 1rem; */
+    display: flex;
+    object-fit: cover;
+    height: 70rem;
+}
+
+.taxLawTitleImage img{
+    width: 100%;
 }
